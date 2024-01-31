@@ -1,0 +1,22 @@
+{
+    "name": "antibiotics11/posix-signal-handler",
+    "description": "A utility class for handling POSIX signals in PHP applications.",
+    "type": "library",
+    "homepage": "https://github.com/antibiotics11/PosixSignalHandler",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "antibiotics11\\PosixSignalHandler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "antibiotics11",
+            "email": "abx@abx.pe.kr"
+        }
+    ],
+    "require": {
+        "php": ">=8.1.0",
+        "ext-pcntl": "*"
+    }
+}
